@@ -18,3 +18,5 @@ verdi = areal_rettvinklet_trekant(les_inn_ikke_negativt_flyttall("side 1"),
 print(verdi)
 verdi = areal_rettvinklet_trekant(7, 8)
 print(verdi)
+verdi = areal_rettvinklet_trekant(9, 3)
+print(verdi)
