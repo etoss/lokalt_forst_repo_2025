@@ -20,3 +20,5 @@ hoyde_firkant = int(input("Høyde: "))
 
 # Kaller funksjonen med to navngitte argumenter, høyde og bredde.
 ascii_firkant(hoyde=hoyde_firkant,  bredde=bredde_firkant)
+
+ascii_firkant(5, 8, "-")
