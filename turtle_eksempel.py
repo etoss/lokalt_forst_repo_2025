@@ -1,7 +1,16 @@
 import turtle
 
 # Tegner en firkant med Turtle Graphics
-for i in range(4):
-    turtle.forward(100)
-    turtle.right(90)
-turtle.done()
+def tegn_firkant(sidelengde, x_start=0, y_start=0):
+    turtle.penup()
+    turtle.goto(x_start, y_start)
+    turtle.pendown()
+    for i in range(4):
+        turtle.forward(sidelengde)
+        turtle.right(90)
+
+
+if __name__ == "__main__":
+    tegn_firkant(100)
+    tegn_firkant(50, -100, 100)
+    turtle.done()
