@@ -5,14 +5,9 @@ def tegn_firkant(sidelengde, x_start=0, y_start=0):
     turtle.penup()
     turtle.goto(x_start, y_start)
     turtle.pendown()
-    turtle.forward(sidelengde)
-    turtle.right(90)
-    turtle.forward(sidelengde)
-    turtle.right(90)
-    turtle.forward(sidelengde)
-    turtle.right(90)
-    turtle.forward(sidelengde)
-    turtle.right(90)
+    for i in range(4):
+        turtle.forward(sidelengde)
+        turtle.right(90)
 
 
 if __name__ == "__main__":
